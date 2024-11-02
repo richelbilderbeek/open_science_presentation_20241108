@@ -19,7 +19,23 @@ And of course: where and how can a regular citizen help?
 
 - What is Open Science?
 - What is Citizen Science?
-- Relation between the two
+
+- Relation between the two:
+
+
+'Open science opens the processes of scientific knowledge creation, evaluation and
+communication to societal actors beyond the traditional scientific
+community' Source: [UNESCO about Open Science](https://www.unesco.org/en/open-science/about):
+
+```mermaid
+flowchart TD
+  subgraph open_science["Open Science"]
+    subgraph citizen_science["Citizen science"]
+    end
+  end
+```
+
+- Is all citizen science open science?
 - Why is Citizen Science important?
 - What is the impact of Citizen Science?
   - Money: around $667 million to $2.5 billion per year for 388 projects [Theobald et al., 2015].
@@ -116,6 +132,68 @@ References:
   doi:10.1126/science.abi6487 accessed 18 April 2023
 
 
+
+
+From [UNESCO about Open Science](https://www.unesco.org/en/open-science/about):
+
+> Open science is a set of principles and practices that aim to make scientific
+> research from all fields accessible to everyone for the benefits of
+> scientists and society as a whole. Open science is about making sure not
+> only that scientific knowledge is accessible but also that the production of
+> that knowledge itself is inclusive, equitable and sustainable.
+> [...]
+> Open science has the potential of making the scientific process more
+> transparent, inclusive and democratic. 
+>
+> Open science:
+> - [...]
+> - [...]
+> - opens the processes of scientific knowledge creation, evaluation and
+>   communication to societal actors beyond the traditional scientific
+>   community.
+
+
+European Citizen Science Association: [https://ecsa.citizen-science.net/working-groups/citizen-science-and-open-science/](https://ecsa.citizen-science.net/working-groups/citizen-science-and-open-science/)
+
+Not always does Citizen Science lead to open data,
+even though the volunteers expect that [Groom et al., 2017]
+
+
+```mermaid
+flowchart TD
+  subgraph open_science[Open Science]
+    citizen_science[Citizen science]
+    open_data[Open Data]
+    citizen_science --> |11.4%, 1415  of 12458| open_data
+  end
+  closed_data[Closed data]
+  unclear_open_or_closed_data[Unclear if data is open or closed]
+  citizen_science --> |0.6%, 72 of 12458| closed_data
+  citizen_science --> |88%, 10971 of 12458| unclear_open_or_closed_data
+```
+
+Also from [Groom et al., 2017] fig 2:
+
+Interpreted intention of the licence                   | Data openness score | Number of data sets
+------------------------------------------------------ | ------------------- | -------------------
+Requires permission to use                             | 0                   | 72                 
+Non-commercial usage, with attribution and share alike | 1                   | 38                 
+With attribution and share alike                       | 1                   | 1                  
+Non-commercial usage                                   | 1                   | 16                 
+Non-commercial usage, with attribution                 | 1                   | 322                
+With attribution                                       | 2                   | 492                
+Public domain                                          | 3                   | 546                
+Not specified or ambiguous                             | .                   | 10 971             
+
+![Groom et al., 2017 figure 1](groom_et_al_2016_fig_1.png)
+
+> Groom et al., 2017 figure 1.
+
+
 ## Examples
 
 - [List of citizen science project](https://en.wikipedia.org/wiki/List_of_citizen_science_projects)
+
+## References
+
+- [Groom et al., 2017] Groom, Quentin, Lauren Weatherdon, and Ilse R. Geijzendorffer. "Is citizen science an open science in the case of biodiversity observations?." Journal of Applied Ecology 54.2 (2017): 612-617. [Online](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2664.12767)
