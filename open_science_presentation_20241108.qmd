@@ -41,15 +41,13 @@ Open science is a set of principles and practices that aim to make scientific re
 
 Open science @unesco2023about:
 
-- increases scientific collaborations and sharing of information for the benefits of science and society;
-- makes multilingual scientific knowledge openly available, accessible and reusable for everyone; and
-- opens the processes of **scientific knowledge creation, evaluation** and communication to **societal actors beyond the traditional scientific community**.
-    
+-   increases scientific collaborations and sharing of information for the benefits of science and society;
+-   makes multilingual scientific knowledge openly available, accessible and reusable for everyone; and
+-   opens the processes of **scientific knowledge creation, evaluation** and communication to **societal actors beyond the traditional scientific community**.
+
 ## What is Citizen Science?
 
-'Open science opens the processes of scientific knowledge creation, evaluation and
-communication to societal actors beyond the traditional scientific
-community' @unesco2023about
+'Open science opens the processes of scientific knowledge creation, evaluation and communication to societal actors beyond the traditional scientific community' @unesco2023about
 
 ## Relation between the two
 
@@ -61,7 +59,6 @@ flowchart TD
     others[Others]
   end
 ```
-
 
 ## Is all citizen science open science?
 
@@ -81,7 +78,9 @@ flowchart TD
 ```
 
 <!-- 11.4%, 1415  of 12458| open_data -->
+
 <!-- 0.6%, 72 of 12458| closed_data -->
+
 <!-- 88%, 10971 of 12458| unclear_open_or_closed_data -->
 
 ## Questions?
@@ -95,9 +94,7 @@ flowchart TD
 
 ## What is Open Science?
 
-
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
 ![@unesco2022understanding](unesco2022understanding.png)
 :::
@@ -123,8 +120,7 @@ flowchart TD
   end
 ```
 :::
-
-::::
+:::
 
 ## What is open science?
 
@@ -140,12 +136,9 @@ flowchart LR
   end
 ```
 
-
 ## What is Open Science?
 
-
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
 ![@unesco2022understanding](unesco2022understanding.png)
 :::
@@ -166,9 +159,7 @@ mindmap
       ...
 ```
 :::
-
-::::
-
+:::
 
 ## What is Open Science?
 
