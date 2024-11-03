@@ -36,6 +36,22 @@ flowchart TD
 ```
 
 - Is all citizen science open science?
+
+No:
+
+```mermaid
+flowchart TD
+  subgraph open_science[Open Science]
+    citizen_science[Citizen science]
+    open_data[Open Data]
+    citizen_science --> |11.4%, 1415  of 12458| open_data
+  end
+  closed_data[Closed data]
+  unclear_open_or_closed_data[Unclear if data is open or closed]
+  citizen_science --> |0.6%, 72 of 12458| closed_data
+  citizen_science --> |88%, 10971 of 12458| unclear_open_or_closed_data
+```
+
 - Why is Citizen Science important?
 - What is the impact of Citizen Science?
   - Money: around $667 million to $2.5 billion per year for 388 projects [Theobald et al., 2015].

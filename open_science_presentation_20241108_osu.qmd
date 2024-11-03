@@ -1,0 +1,30 @@
+---
+title: "Open Science and humans being scientists"
+author: "Richèl Bilderbeek"
+format: revealjs
+editor: visual
+from: markdown+emoji
+bibliography: open_science_presentation_20241108_osu.bib
+csl: vancouver.csl
+css: styles.css
+slide-number: true
+number-sections: true
+number-offset: -1
+---
+
+# Open Science and humans being scientists
+
+![](CC0.png) Richèl Bilderbeek
+
+<https://github.com/richelbilderbeek/open_science_presentation_20241108_osu.git>
+
+# Introduction
+
+Hoi!
+
+## Questions?
+
+-   Repository: <https://github.com/richelbilderbeek/open_science_presentation_20240517.git>
+-   [YouTube video](https://youtu.be/EeuxtCcWNRQ?si=2GI541lsLL7Xb5_0)
+
+# References {#references}
