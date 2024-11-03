@@ -17,40 +17,6 @@ And of course: where and how can a regular citizen help?
 
 ## Structure
 
-- What is Open Science?
-- What is Citizen Science?
-
-- Relation between the two:
-
-
-'Open science opens the processes of scientific knowledge creation, evaluation and
-communication to societal actors beyond the traditional scientific
-community' Source: [UNESCO about Open Science](https://www.unesco.org/en/open-science/about):
-
-```mermaid
-flowchart TD
-  subgraph open_science["Open Science"]
-    subgraph citizen_science["Citizen science"]
-    end
-  end
-```
-
-- Is all citizen science open science?
-
-No:
-
-```mermaid
-flowchart TD
-  subgraph open_science[Open Science]
-    citizen_science[Citizen science]
-    open_data[Open Data]
-    citizen_science --> |11.4%, 1415  of 12458| open_data
-  end
-  closed_data[Closed data]
-  unclear_open_or_closed_data[Unclear if data is open or closed]
-  citizen_science --> |0.6%, 72 of 12458| closed_data
-  citizen_science --> |88%, 10971 of 12458| unclear_open_or_closed_data
-```
 
 - Why is Citizen Science important?
 - What is the impact of Citizen Science?
@@ -213,3 +179,38 @@ Not specified or ambiguous                             | .                   | 1
 ## References
 
 - [Groom et al., 2017] Groom, Quentin, Lauren Weatherdon, and Ilse R. Geijzendorffer. "Is citizen science an open science in the case of biodiversity observations?." Journal of Applied Ecology 54.2 (2017): 612-617. [Online](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2664.12767)
+
+## Use bigger fonts
+
+Does not display well in mermaid
+
+```mermaid
+flowchart TD
+  classDef big_font font-size:20pt
+
+  subgraph open_science["Open Science"]
+    open_access[Open access]:::big_font
+    open_data[Open data]:::big_font
+    open_source_code[Open source code]:::big_font
+    open_peer_review[Open peer review]:::big_font
+    open_eductional_resources[Open educational resources]:::big_font
+    open_methodology[Open methodology]:::big_font
+    hidden_node:::hidden
+
+    open_access ~~~ 
+      open_data ~~~ 
+      open_source_code ~~~ 
+      open_peer_review ~~~ 
+      open_eductional_resources ~~~ 
+      open_methodology
+  end
+```
+
+```text
+{
+  "theme": "default",
+  "themeVariables":{
+    "fontSize":"48px"
+  }
+}
+```

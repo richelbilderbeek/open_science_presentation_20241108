@@ -2,6 +2,13 @@
 title: "Open Science and humans being scientists"
 author: "Richèl Bilderbeek"
 format: revealjs
+mermaid:
+  format:
+    html:
+      mermaid:
+        - theme: default
+        - themeVariables:
+            fontSize: 96pt
 editor: visual
 from: markdown+emoji
 bibliography: open_science_presentation_20241108.bib
@@ -16,11 +23,66 @@ number-offset: -1
 
 ![](CC0.png) Richèl Bilderbeek
 
-<https://github.com/richelbilderbeek/open_science_presentation_20241108.git>
+<https://github.com/richelbilderbeek/open_science_presentation_20241108>
 
-# Introduction
+## What is Open Science?
 
-Hoi!
+![@unesco2022understanding](unesco2022understanding.png)
+
+## Where is citizen science?
+
+![@unesco2022understanding](unesco2022understanding_zoom.png)
+
+## What is Open Science?
+
+Open science is a set of principles and practices that aim to make scientific research from all fields accessible to everyone for the benefits of scientists and society as a whole. Open science is about making sure not only that scientific knowledge is accessible but also that the production of that knowledge itself is inclusive, equitable and sustainable. @unesco2023about
+
+## How does Open Science look like?
+
+Open science @unesco2023about:
+
+- increases scientific collaborations and sharing of information for the benefits of science and society;
+- makes multilingual scientific knowledge openly available, accessible and reusable for everyone; and
+- opens the processes of **scientific knowledge creation, evaluation** and communication to **societal actors beyond the traditional scientific community**.
+    
+## What is Citizen Science?
+
+'Open science opens the processes of scientific knowledge creation, evaluation and
+communication to societal actors beyond the traditional scientific
+community' @unesco2023about
+
+## Relation between the two
+
+```{mermaid}
+flowchart TD
+  subgraph open_science["Open Science"]
+    citizen_science["Citizen science"]
+    open_data[Open data]
+    others[Others]
+  end
+```
+
+
+## Is all citizen science open science?
+
+Not all citizen science projects produce open data (n = 12458 citizen science projects): @groom2017citizen
+
+```{mermaid}
+flowchart TD
+  subgraph open_science[Open Science]
+    citizen_science[Citizen science]
+    open_data[Open Data]
+    citizen_science --> |11.4%| open_data
+  end
+  closed_data[Closed data]
+  unclear_open_or_closed_data[Unclear if data is open or closed]
+  citizen_science --> |0.6%| closed_data
+  citizen_science --> |88%| unclear_open_or_closed_data
+```
+
+<!-- 11.4%, 1415  of 12458| open_data -->
+<!-- 0.6%, 72 of 12458| closed_data -->
+<!-- 88%, 10971 of 12458| unclear_open_or_closed_data -->
 
 ## Questions?
 
@@ -28,3 +90,99 @@ Hoi!
 -   [YouTube video](https://youtu.be/EeuxtCcWNRQ?si=2GI541lsLL7Xb5_0)
 
 # References {#references}
+
+## Appendix
+
+## What is Open Science?
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![@unesco2022understanding](unesco2022understanding.png)
+:::
+
+::: {.column width="50%"}
+```{mermaid}
+flowchart TD
+  subgraph open_science["Open Science"]
+    open_access[Open access]
+    open_data[Open data]
+    open_source_code[Open source code]
+    open_peer_review[Open peer review]
+    open_educational_resources[Open educational resources]
+    open_methodology[Open methodology]
+    hidden_node:::hidden
+
+    open_access ~~~ 
+      open_data ~~~ 
+      open_source_code ~~~ 
+      open_peer_review ~~~ 
+      open_eductional_resources ~~~ 
+      open_methodology
+  end
+```
+:::
+
+::::
+
+## What is open science?
+
+```{mermaid}
+flowchart LR
+  subgraph open_science["Open Science"]
+    open_access[Open access]
+    open_data[Open data]
+    open_source_code[Open source code]
+    open_peer_review[Open peer review]
+    open_educational_resources[Open educational resources]
+    open_methodology[Open methodology]
+  end
+```
+
+
+## What is Open Science?
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![@unesco2022understanding](unesco2022understanding.png)
+:::
+
+::: {.column width="50%"}
+```{mermaid}
+mindmap
+  root((Open Science))
+    Open scientific knowledge
+      Scientific publications
+      ...
+    Open science infrastructures
+      ...
+    Open engagemement of societal actors
+      Citizen and participatory science
+      ...
+    Open dialogue with other knowledge systems
+      ...
+```
+:::
+
+::::
+
+
+## What is Open Science?
+
+```{mermaid}
+mindmap
+  root((Open Science))
+    Open scientific knowledge
+      Scientific publications
+      ...
+    Open science infrastructures
+      ...
+    Open engagemement of societal actors
+      Citizen and participatory science
+      ...
+    Open dialogue with other knowledge systems
+      ...
+```
