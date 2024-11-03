@@ -1,4 +1,4 @@
-# open_science_presentation_20241108_osu
+# open_science_presentation_20241108
 
 - Title: Open Science and humans being scientists
 - Where: [Open Science Uppsala](https://open-science-uppsala.github.io/open_science_uppsala/content/20241108_richel_bilderbeek/),

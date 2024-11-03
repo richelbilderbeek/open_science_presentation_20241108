@@ -4,7 +4,7 @@ author: "Richèl Bilderbeek"
 format: revealjs
 editor: visual
 from: markdown+emoji
-bibliography: open_science_presentation_20241108_osu.bib
+bibliography: open_science_presentation_20241108.bib
 csl: vancouver.csl
 css: styles.css
 slide-number: true
@@ -16,7 +16,7 @@ number-offset: -1
 
 ![](CC0.png) Richèl Bilderbeek
 
-<https://github.com/richelbilderbeek/open_science_presentation_20241108_osu.git>
+<https://github.com/richelbilderbeek/open_science_presentation_20241108.git>
 
 # Introduction
 
