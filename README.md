@@ -214,3 +214,26 @@ flowchart TD
   }
 }
 ```
+
+FAILS
+```
+%%{init: 
+  "theme": "default",
+  "themeVariables":{
+    "fontSize":"18px"
+  }
+}%%
+
+mindmap
+  root((Open Science))
+    Open scientific knowledge
+      Scientific publications
+      ...
+    Open science infrastructures
+      ...
+    Open engagemement of societal actors
+      Citizen and participatory science
+      ...
+    Open dialogue with other knowledge systems
+      ...
+```
