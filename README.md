@@ -18,22 +18,6 @@ And of course: where and how can a regular citizen help?
 ## Structure
 
 
-- Why is Citizen Science important?
-- What is the impact of Citizen Science?
-  - Money: around $667 million to $2.5 billion per year for 388 projects [Theobald et al., 2015].
-   This equals 1.72M$-6.4M$ per project
-  - Money: assuming $12/h wage: average $222,068 per project (of 7 projects), from $22,717-$654,130 [Sauermann & Franzoni, 2015]
-  - The majority of citizen science-collected data do not reach peer-reviewed literature [Sauermann & Franzoni, 2015],
-    only 12% of reviewed projects listed peer-reviewed scientific publications on their websites and/or returned results in Web of Science searches with project name' [Sauermann & Franzoni, 2015]
-  - Compare 61% (open access) + 21% (closed acccess) of projects resulting in a publication `[Hecker et al., 2018]`
-
-![Sauermann & Franzoni, 2015, figure 4](sauermann_and_franzoni_2015_fig_4.jpg)
-
-- [Sauermann & Franzoni, 2015] Henry Sauermann; Chiara Franzoni (20 January 2015). "Crowd science user contribution patterns and their implications". Proceedings of the National Academy of Sciences of the United States of America. 112 (3): 679–684. Bibcode:2015PNAS..112..679S. doi:10.1073/pnas.1408907112. PMC 4311847. PMID 25561529.
-- [Theobald et al., 2015] J. Theobald; A. K. Ettinger; H. K. Burgess; L. B. DeBey; N. R. Schmidt; H. E. Froehlich; C. Wagner; J. HilleRisLambers; J. Tewksbury; M. A. Harsch; J. K. Parrish (1 January 2015). "Global change and local solutions: Tapping the unrealized potential of citizen science for biodiversity research". Biological Conservation. 181 (2015): 236–244. Bibcode:2015BCons.181..236T. doi:10.1016/j.biocon.2014.10.021.
-
-- How to contribute to a citizen science project
-
 
 - `[Moedas, 2018]` Moedas, Carlos. Citizen science: innovation in open science,
   society and policy. Ucl Press, 2018.
