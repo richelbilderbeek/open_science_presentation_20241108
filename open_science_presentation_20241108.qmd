@@ -25,25 +25,46 @@ number-offset: -1
 
 <https://github.com/richelbilderbeek/open_science_presentation_20241108>
 
+# Citizen science projects
+
+## The eBird project
+
+![](ebird.png)
+
+- 25 M observations/month
+- reviewed by 500 volunteer experts
+
+## Maturity of Baby Sounds
+
+![](maturity.jpeg)
+
+- 20k volunteers
+- 1.5M classifications
+- Part of Zooniverse
+
+## Zooniverse
+
+![](zooniverse.png)
+
 # Research questions
 
-- What is the relation between Citizen Science and Open Science?
-- How important is Citizen Science?
-- Why is UNESCO interested in it?
+-   What is the relation between Citizen Science and Open Science?
+-   How important is Citizen Science?
+-   Why is UNESCO interested in it?
 
 # Overview
 
-- Introduction
-- Impact of Citizen Science
-- Conclusion
+-   Introduction
+-   Impact of Citizen Science
+-   Conclusion
 
 # Introduction
 
 ## Definitions needed
 
-- Definition Open Science
-- Definition Citizen Science
-- Relation between the two
+-   Definition Open Science
+-   Definition Citizen Science
+-   Relation between the two
 
 ## What is Open Science?
 
@@ -55,23 +76,31 @@ number-offset: -1
 
 ## What is Open Science?
 
-Open science is a set of principles and practices that aim to make scientific research from all fields accessible to everyone for the benefits of scientists and society as a whole. Open science is about making sure not only that scientific knowledge is accessible but also that the production of that knowledge itself is inclusive, equitable and sustainable. @unesco2023about
-
-## How does Open Science look like?
-
-Open science @unesco2023about:
-
--   increases scientific collaborations and sharing of information for the benefits of science and society;
--   makes multilingual scientific knowledge openly available, accessible and reusable for everyone; and
--   opens the processes of **scientific knowledge creation, evaluation** and communication to **societal actors beyond the traditional scientific community**.
+> Open science is a set of principles and practices that aim to make scientific
+> research from all fields accessible to everyone for the benefits of scientists
+> and society as a whole. Open science is about making sure not only that
+> scientific knowledge is accessible but also that the production of that
+> knowledge itself is inclusive, equitable and sustainable @unesco2023about
 
 ## What is Citizen Science?
 
-'Open science opens the processes of scientific knowledge creation, evaluation and communication to societal actors beyond the traditional scientific community' @unesco2023about
+> Open science opens the processes of scientific knowledge creation, evaluation
+> and communication to societal actors beyond the traditional scientific
+> community @unesco2023about
 
-- Synonyms: community science, crowd science, crowd-sourced science, civic science, participatory monitoring, volunteer monitoring
+- Synonyms: community science, crowd science, crowd-sourced science,
+  civic science, participatory monitoring, volunteer monitoring
 
-## Relation between the two
+## Citizen Science features @gura2013citizen
+
+-   obtain data otherwise impossible to get
+-   volunteers are gratis
+-   managing volunteers takes time
+-   projects engage the public in science
+-   difficult to guarantee the quality of the data
+-   harder peer review
+
+## Citizen Science and Open Science
 
 Working definition 1:
 
@@ -79,61 +108,70 @@ All Citizen Science is part of Open Science.
 
 # The importance of Citizen Science
 
-## Indicators
+## Qualitative indicators
 
-- Financially: how much money is saved?
-- Academic: how many papers use citizen science?
-- Chance of success:
-  how often does a citizen science project result in a publication?
-- Engagement: how many people are reached?
+> Citizen science can help researchers to address previously insolvable
+> problems. @gura2013citizen
+>
+> Citizen science can also educate and engage @gura2013citizen
+
+## Quantitative indicators
+
+-   Financially: how much money is saved?
+-   Academic: how many papers use citizen science?
+-   Chance of success: how often does a citizen science project result in a publication?
+-   Engagement: how many people are reached?
+
+Back-of-the-envelope calculations!
 
 ## The financial impact of Citizen Science
 
-Value (M\$)|\# projects|Source
------------|-----------|-------------------
-1.55       |7          |@sauermann2015crowd
-667-2500   |388        |@theobald2015global
+| Value (M\$) | \# projects | Source              |
+|-------------|-------------|---------------------|
+| 1.55        | 7           | @sauermann2015crowd |
+| 667-2500    | 388         | @theobald2015global |
 
-- Per project: 0.022-6.4 M\$
+-   Per project: 0.022-6.4 M\$
 
 ## The financial impact of Citizen Science is small
 
-Assuming citizen science adds 2.5 B$:
+Assuming Citizen Science adds 2.5 B\$:
 
-Area |Science budget spending (B\$)|2.5 B\$
------|-----------------------------|----------
-EU   |408.322 @oecd                |0.61%
-USA  |761.582 @oecd                |0.33%
-World|1707.221 @oecd               |0.15
+| Area  | Science budget spending (B\$) | 2.5 B\$ |
+|-------|-------------------------------|---------|
+| EU    | 408.322 @oecd                 | 0.61%   |
+| USA   | 761.582 @oecd                 | 0.33%   |
+| World | 1707.221 @oecd                | 0.15%   |
 
-## Citizen science is used in few publications
+Citizen Science adds 0.15% extra value
 
-Citizen science is used in few publications
+## Citizen science is used in few publications 
+
+Citizen science is used in few publications @sauermann2015crowd
 
 ![Sauermann & Franzoni, 2015, figure 4](sauermann_and_franzoni_2015_fig_4.jpg)
 
 ## Citizen Science projects resulting in a paper
 
-12% of Citizen Science projects can be linked to a
-peer-reviewed paper @sauermann2015crowd
+12% of Citizen Science projects can be linked to a peer-reviewed paper @sauermann2015crowd
 
 ## Citizen science results in less papers
 
-Project type   |Chance project can be linked to a publication
----------------|---------------------------------------------
-Citizen Science|12% @sauermann2015crowd
-Open Access    |61% @hecker2018european
-Closed access  |21% @hecker2018european
+| Project type    | Chance project can be linked to a publication |
+|-----------------|-----------------------------------------------|
+| Citizen Science | 12% @sauermann2015crowd                       |
+| Open Access     | 61% @hecker2018european                       |
+| Closed access   | 21% @hecker2018european                       |
 
 ## Is all citizen science open science?
 
 No, from @groom2017citizen:
 
-Type of data|Frequency
-------------|---------
-Open        |11.4%
-Closed      |0.6%
-Unclear     |88%
+| Type of data | Frequency |
+|--------------|-----------|
+| Open         | 11.4%     |
+| Closed       | 0.6%      |
+| Unclear      | 88%       |
 
 > n = 12458 citizen science projects
 
@@ -143,21 +181,22 @@ Working definition 2:
 
 All Citizen Science is part of Open Science, when it produces Open Data
 
+NB: Only Open Access publications?
+
 ## Engagement: how many people are reached?
 
 In 2015, 1.36-2.28 million people volunteer annually @theobald2015global
 
 ## Engagement: how many people are reached?
 
+| Year | Parameter          | Value                                   |
+|------|--------------------|-----------------------------------------|
+| 2014 | Citizens           | 2.28 million @theobald2015global        |
+| 2018 | Scientist density  | 1368 per million @unesco2021researchers |
+| 2018 | World population   | 7684 million @worldometers              |
+| 2018 | Scientists         | 10.51 million                           |
 
-Year|Parameter         |Value
-----|------------------|-----------------
-2014|Citizen Scientists|2.28 million @theobald2015global
-2018|Scientist density |1368 per million @unesco2021researchers
-2018|World population  |7684 million @worldometers 
-2018|Scientists        |10.51 million
-
-- There is 1 citizen scientist per 4.6 scientists
+-   There is 1 citizen per 4.6 scientists
 
 # Why UNESCO interested?
 
@@ -165,118 +204,64 @@ Year|Parameter         |Value
 
 Search UNESCO website why Citizen Science is important
 
-- EU-Citizen.Science: <https://eu-citizen.science/>
- 
- 
-- 'Citizen science can help researchers to address previously insoluble problems'
-  @gura2013citizen
-- 'Citizen science can also educate and engage' @gura2013citizen
-- '“Citizen science is enormously expensive in terms of time and effort managing people, websites and databases,” says [Philip] Brohan' @gura2013citizen. 'People management is one of greatest challenges, says Andrea Wiggins' @gura2013citizen
-- it is difficult to guarantee the quality of the data @gura2013citizen
-- there is the challenge of getting citizen-science data through peer review @gura2013citizen
+-   e.g. <https://eu-citizen.science/>
 
+## Results
 
-## Conclusion
+Nothing new.
 
-Citizen Science ...
+# Number revisited
 
-- is part of Open Science
-- its financial impact is small
-- is used in few publications
-- results in less papers per project
+## Number revisited: engagement
+
+- 1 citizen per 4.6 scientists
+- 0.15% of scientists is a citizen scientist @sauermann2015crowd
+- Hence, 307 citizens per 1 citizen scientist
+
+# Number revisited: financial impact
+
+- 0.15% of scientists is a citizen scientist @sauermann2015crowd
+- Assuming citizen science adds 2.5 B\$:
+
+| Area  | Science budget spending (B\$) [1] | 2.5 B\$ |
+|-------|-----------------------------------|---------|
+| EU    | 0.61 @oecd                        | 409.8%  |
+| USA   | 1.14 @oecd                        | 219.3%  |
+| World | 2.56 @oecd                        | 97.6%   |
+
+- [1] On these 0.15%
+
+A citizen scientist creates a dataset worth
+as much as the funding spent on him/her.
+
+# Conclusion 1/3
+
+RQ1: What is the relation between Citizen Science and Open Science?
+
+A: Citizen Science is part of Open Science, if it produces Open Data
+
+# Conclusion 2/3
+
+RQ2: How important is Citizen Science?
+
+-   its overall financial impact is small
+-   its financial impact per citizen scientist is big
+-   its overall engagement with the public is small
+-   its engagement per scientist is big
+-   is used in few publications
+-   results in less papers per project
+
+# Conclusion 3/3
+
+RQ3: Why is UNESCO interested in it?
+
+- Can only guess
+- Engagement?
+- Inclusiveness?
+- Money?
 
 ## Questions?
 
--   Repository: <https://github.com/richelbilderbeek/open_science_presentation_20240517.git>
--   [YouTube video](https://youtu.be/EeuxtCcWNRQ?si=2GI541lsLL7Xb5_0)
+-   Repository: [https://github.com/richelbilderbeek/  open_science_presentation_20241108.git](https://github.com/richelbilderbeek/open_science_presentation_20241108.git)
 
 # References {#references}
-
-## Appendix
-
-## What is Open Science?
-
-::: columns
-::: {.column width="50%"}
-![@unesco2022understanding](unesco2022understanding.png)
-:::
-
-::: {.column width="50%"}
-```{mermaid}
-flowchart TD
-  subgraph open_science["Open Science"]
-    open_access[Open access]
-    open_data[Open data]
-    open_source_code[Open source code]
-    open_peer_review[Open peer review]
-    open_educational_resources[Open educational resources]
-    open_methodology[Open methodology]
-    hidden_node:::hidden
-
-    open_access ~~~ 
-      open_data ~~~ 
-      open_source_code ~~~ 
-      open_peer_review ~~~ 
-      open_eductional_resources ~~~ 
-      open_methodology
-  end
-```
-:::
-:::
-
-## What is open science?
-
-```{mermaid}
-flowchart LR
-  subgraph open_science["Open Science"]
-    open_access[Open access]
-    open_data[Open data]
-    open_source_code[Open source code]
-    open_peer_review[Open peer review]
-    open_educational_resources[Open educational resources]
-    open_methodology[Open methodology]
-  end
-```
-
-## What is Open Science?
-
-::: columns
-::: {.column width="50%"}
-![@unesco2022understanding](unesco2022understanding.png)
-:::
-
-::: {.column width="50%"}
-```{mermaid}
-mindmap
-  root((Open Science))
-    Open scientific knowledge
-      Scientific publications
-      ...
-    Open science infrastructures
-      ...
-    Open engagemement of societal actors
-      Citizen and participatory science
-      ...
-    Open dialogue with other knowledge systems
-      ...
-```
-:::
-:::
-
-## What is Open Science?
-
-```{mermaid}
-mindmap
-  root((Open Science))
-    Open scientific knowledge
-      Scientific publications
-      ...
-    Open science infrastructures
-      ...
-    Open engagemement of societal actors
-      Citizen and participatory science
-      ...
-    Open dialogue with other knowledge systems
-      ...
-```
-
