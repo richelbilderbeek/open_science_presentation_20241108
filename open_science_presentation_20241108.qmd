@@ -50,9 +50,7 @@ number-offset: -1
 
 ![](halberda2012number_fig_1.jpeg)
 
-> ANS dots test: more yellow or blue dots?
-> 300 trials in 8 minutes.
-> 10k participants
+> ANS dots test: more yellow or blue dots? 300 trials in 8 minutes. 10k participants
 
 ## Example @halberda2012number
 
@@ -62,7 +60,7 @@ number-offset: -1
 
 ![](halberda2012number_fig_3a.png)
 
-> one's number sense [peaks] at ∼30
+> one's number sense \[peaks\] at ∼30
 
 # This talk's research questions
 
@@ -80,20 +78,13 @@ number-offset: -1
 
 ## What is Open Science?
 
-> Open science is a set of principles and practices that aim to make
-> scientific research from all fields accessible to everyone for the benefits
-> of scientists and society as a whole. Open science is about making sure not
-> only that scientific knowledge is accessible but also that **the production**
-> **of that knowledge itself is inclusive**, equitable and sustainable @unesco2023about
+> Open science is a set of principles and practices that aim to make scientific research from all fields accessible to everyone for the benefits of scientists and society as a whole. Open science is about making sure not only that scientific knowledge is accessible but also that **the production** **of that knowledge itself is inclusive**, equitable and sustainable @unesco2023about
 
 ## What is Citizen Science?
 
-> Citizen science [...] is research conducted with participation
-> from the general public, or amateur/nonprofessional researchers
-> or participants for science, social science
-> and many other disciplines. vohland2021science
+> Citizen science \[...\] is research conducted with participation from the general public, or amateur/nonprofessional researchers or participants for science, social science and many other disciplines. vohland2021science
 
-- Synonyms: community science, crowd science, crowd-sourced science, civic science, participatory monitoring, or volunteer monitoring
+-   Synonyms: community science, crowd science, crowd-sourced science, civic science, participatory monitoring, or volunteer monitoring
 
 ## Citizen Science features @gura2013citizen
 
@@ -106,11 +97,10 @@ number-offset: -1
 
 ## Relation between Citizen Science and Open Science
 
-All Citizen Science is part of Open Science,
-when it produces Open Data [1][2]
+All Citizen Science is part of Open Science, when it produces Open Data \[1\]\[2\]
 
-- [1] See next slide
-- [2] probably in an Open Access journal :-) (but no data)
+-   \[1\] See next slide
+-   \[2\] probably in an Open Access journal :-) (but no data)
 
 ## Is all citizen science open science?
 
@@ -152,12 +142,11 @@ The value of the dataset created:
 
 ## The financial impact of Citizen Science
 
-Assume the dataset value is 2.5 B$ @theobald2015global.
+Assume the dataset value is 2.5 B\$ @theobald2015global.
 
-Is that 'a little' or 'a lot'?  Compare to global science budget spending!
+Is that 'a little' or 'a lot'? Compare to global science budget spending!
 
-> If the value of the data set I create is worth as much as my salary,
-> it was worth that salary
+> If the value of the data set I create is worth as much as my salary, it was worth that salary
 
 ## The financial impact of Citizen Science is small
 
@@ -200,11 +189,10 @@ Is that 'a little' or 'a lot'? Compare to the number of scientists!
 
 ## Citizen Science projects resulting in a paper
 
-12% of Citizen Science projects can be linked
-to a peer-reviewed paper @theobald2015global.
+12% of Citizen Science projects can be linked to a peer-reviewed paper @theobald2015global.
 
-- Hard to pass peer review?
-- Sloppier linking?
+-   Hard to pass peer review?
+-   Sloppier linking?
 
 ## Citizen science results in less papers
 
@@ -228,19 +216,24 @@ Nothing new.
 
 # Number revisited
 
-# Revisited: financial impact
+-   0.15% of papers is a citizen science paper @theobald2015global
+-   Assume 1 citizen scientist per paper
+-   Hence, 0.15% of all scientists uses citizen science
+-   Only **they** have generated the impact
 
--   0.15% of scientists is a citizen scientist @theobald2015global
--   The world spends 1707.221 M$ on science @oecd
--   Hence, 2.56 B$ of science funding goes to citizen scientists
--   The dataset value created by those is around 2.5 B$ @theobald2015global
+## Revisited: financial impact
+
+-   0.15% of scientists uses citizen science
+-   The world spends 1707.221 M\$ on science @oecd
+-   Hence, 2.56 B\$ of science funding goes to citizen scientists
+-   The dataset value created by those is around 2.5 B\$ @theobald2015global
 
 > Yes, it is worth it
 
 ## Revisited: engagement
 
 -   1 citizen per 4.6 scientists
--   0.15% of scientists is a citizen scientist @theobald2015global
+-   0.15% of scientists uses citizen science
 -   Hence, 1 citizen scientist reaches 307 citizens
 
 > Yes, it is worth it
@@ -273,9 +266,9 @@ RQ3: Why is UNESCO interested in it?
 
 ## Discussion
 
-- I feel citizen science is worth it. Do you?
-- Shallow literature search, around 10 hours: 
-  Maybe a substantial effect?
+-   Some back-of-the-envelope calculations have some spicy assumptions
+-   I feel citizen science is worth it. Do you?
+-   Shallow literature search, around 10 hours: Maybe a substantial effect?
 
 ![@vohland2021science was found too late](vohland2021science.png)
 
